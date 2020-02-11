@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/colorblack"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/splash"
+        android:background="@drawable/ter"
+        />
+    <TextView
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txt_splash1"
+        android:text="My Music"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txt_splash2"
+        android:text="Music Player App"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="By;@TisaNh"
+        android:textColor="@android:color/white"
+        />
+
+
+</LinearLayout>
